@@ -1,7 +1,7 @@
 {
   "family": "nginx-fargate-task",
-  "taskRoleArn": "",
-  "executionRoleArn": "",
+  "taskRoleArn": "arn:aws:iam::937006504671:role/ecsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::937006504671:role/ecsTaskExecutionRole",
   "networkMode": "awsvpc",
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "256",
