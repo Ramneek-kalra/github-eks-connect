@@ -10,7 +10,7 @@ on:
       service_name:
         description: 'ECS Service Name'
         required: true
-        default: 'nginx-service'
+        default: 'github-test-service'
       task_definition_family:
         description: 'Task Definition Family'
         required: true
