@@ -1,4 +1,4 @@
-# Use the official Nginx image as the base
+
 FROM nginx:alpine
 
 # Expose port 80 for the web server
