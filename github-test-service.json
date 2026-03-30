@@ -1,0 +1,19 @@
+{
+  "serviceName": "github-test-service",
+  "taskDefinition": "",
+  "cluster": "github-test-cluster",
+  "desiredCount": 1,
+  "launchType": "FARGATE",
+  "networkConfiguration": {
+    "awsvpcConfiguration": {
+      "subnets": [
+        "subnet-0f6f49bc4452fc6db",
+        "subnet-048921267efd8cef1"
+      ],
+      "securityGroups": [
+        "sg-0fe8f4dec6f376eb8"
+      ],
+      "assignPublicIp": "ENABLED"
+    }
+    }
+}
